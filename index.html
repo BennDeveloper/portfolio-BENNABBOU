@@ -1,0 +1,433 @@
+<!-- HELLO
+-
+DevFolio is a minimal, clean, lightweight and fully responsive template for Devlopers!
+Created by Anil Seervi.
+-
+GitHub repo: https://github.com/AnilSeervi/DevFolio
+README: https://github.com/AnilSeervi/DevFolio/blob/master/README.md
+-
+Have fun creating your portfolio on this template!!! -->
+
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+
+    <!-- Titre -->
+    <title>BENNABBOU | développeur front-end</title>
+
+    <!-- dev keywords  -->
+    <meta name="keywords" content="BENNABBOU, Abdellah, javascript, css, html, react," />
+
+    <!--  descrption pour SEO  -->
+    <meta name="description" content="BENNABBOU | développeur front-end" />
+
+    <!--  Logo  -->
+    <link rel="icon" type="image/png" href="./assets/devfolio-logo.png" />
+
+    <!-- Add your primary-theme color for the value of content -->
+    <meta name="theme-color" content="#36d1dc" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <!-- Fill content with the URL of this portfolio you'll host -->
+    <meta property="og:url" content="https://devfolio.js.org/" />
+    <!-- Fill content with the title of your portfolio(Recommended to use what you put in <title> tag) -->
+    <meta property="og:title" content="[Your name here] | Developer" />
+    <!-- Give a short description that'll show up when you/someone shares your portfolio on different platform -->
+    <meta property="og:description" content="Made using DevFolio Template" />
+    <!-- Add a thumbnail image in assets folder and fill the content attr with URL to that thumbnail 
+      so that a thumbnail image of your portfolio is shown while shared on other platform -->
+    <meta
+      property="og:image"
+      content="https://devfolio.js.org/assets/devfolio.png"
+    />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <!-- Again fill content attr with the URL of this portfolio you'll host -->
+    <meta property="twitter:url" content="https://devfolio.js.org" />
+    <!-- Recommended to use the same text used within <title> element -->
+    <meta property="twitter:title" content="[Your name here] | Developer" />
+    <!-- short description that shows up while your portfolio is shared -->
+    <meta
+      property="twitter:description"
+      content="Made using DevFolio Template"
+    />
+    <!-- Fill content with the URL to the thumbnail image that you'll put in the assets folder -->
+    <meta
+      property="twitter:image"
+      content="https://anilseervi.vercel.app/assets/devfolio.png"
+    />
+
+    <!-- link tags -->
+    <link rel="preload" as="style" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+
+    <!-- FontAwesome Icons link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script defer src="./javascript/scrollreveal.min.js"></script>
+    <script
+      defer
+      type="text/javascript"
+      src="./javascript/scrollveal.js"
+    ></script>
+
+    <!-- Remove Google Analytics once you have your portfolio website set-up -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-122228201-4"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || []
+      function gtag() {
+        dataLayer.push(arguments)
+      }
+      gtag("js", new Date())
+
+      gtag("config", "UA-122228201-4")
+    </script>
+    <!-- End of Google Analytics -->
+  </head>
+  <body>
+    <!-- section de la presentation -->
+    <div id="hero">
+      <section class="container">
+        <h1 class="hero-title">
+          Bonjour, je m'appelle <span class="text-color-main name">BENNABBOU</span>
+          <br />
+          Je suis Développeur Front-End.
+        </h1>
+        <p class="hero-cta">
+          <a class="cta-btn cta-btn--hero" href="#about">En savoir plus</a>
+        </p>
+      </section>
+      <a href="#about" class="scroll-down-link" aria-label="scroll-down">
+        <div class="scroll-down"></div
+      ></a>
+    </div>
+    <!-- /END Hero Section -->
+
+    <!-- Ala Section a propos de moi -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title">À PROPOS DE MOI</h2>
+        <div class="row about-wrapper">
+          <div class="about-wrapper__image">
+            <img
+              class="img-fluid"
+              src="./assets/bennabbou-dev.webp"
+              alt="Profile Image"
+              width="450"
+              height="350"
+            />
+          </div>
+          <div class="about-wrapper__info">
+            <p class="about-wrapper__info-text">
+              Je suis Bennabbou Abdellah, développeur web front-end avec 13 ans d'expérience en graphisme. 
+              Passionné par la création d'interfaces en ligne, j'allie maîtrise technique et sens du design, 
+              avec des compétences en outils comme Photoshop, Illustrator, InDesign, et Adobe Premiere. 
+              Mon parcours autodidacte m'a conduit à explorer la fusion entre technologie et créativité, 
+              et à perfectionner mes compétences à travers une formation certifiante chez OpenClassrooms, 
+              équivalente à un bac+2.
+            </p>
+            <p class="about-wrapper__info-text">
+              Cette formation m'a permis de consolider mes connaissances dans les langages et technologies front-end modernes, 
+              tels que HTML, CSS, JavaScript, et React.js. Mon portfolio présente une sélection de projets variés, 
+              illustrant ma progression et mon engagement à offrir des expériences utilisateur uniques. 
+              Basé à Neuilly-Plaisance, je suis disponible pour des collaborations en présentiel ou à distance partout en France. 
+              N'hésitez pas à explorer mon portfolio et à me contacter pour discuter de projets innovants à réaliser ensemble.
+            </p>
+            <span class="about-wrapper__cta">
+              <a href="#" class="cta-btn cta-btn--resume">View Resume</a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /fin de la Section a propos de moi -->
+
+    <!--Projets Section-->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">LES PROJETS</h2>
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Booki</h3>
+              <p class="project-wrapper__text-info">
+                Dans le cadre de ce projet de formation, j'ai conçu la page d'accueil d'une agence de voyage 
+                en HTML et CSS, en créant une interface responsive à partir de maquettes Figma pour mobile, 
+                tablette et desktop. Ce projet m'a permis de développer mes compétences en design responsive et
+                d'acquérir une solide compréhension de la structuration et de la stylisation du code. 
+                J'ai ainsi pu maîtriser l'intégration précise des maquettes et optimiser mon environnement 
+                de développement, me préparant efficacement pour les défis futurs.
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero cta-btn--projects"
+                  >See Live</a
+                >
+                <a href="#" target="_blank" class="cta-btn text-color-main"
+                  >Source Code</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/projet-1.webp"
+                    class="img-fluid"
+                    alt="Project Image"
+                    width="1366"
+                    height="767"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Kasa</h3>
+              <p class="project-wrapper__text-info">
+                Dans ce projet de formation, j'ai développé le front-end d'une application en React 
+                et React Router, visant à offrir une expérience utilisateur moderne et réactive basée 
+                sur des maquettes fournies. Le projet se concentre sur le développement front-end, 
+                utilisant des données simulées d'un fichier JSON pour présenter des logements destinés 
+                à la location entre particuliers. Grâce à React, j'ai pu créer des composants réutilisables, 
+                simplifiant le développement et améliorant la maintenabilité du code. J'ai également 
+                mis en place un routage efficace avec React Router pour une navigation fluide entre 
+                les différents logements. Ce projet illustre ma capacité à utiliser React pour concevoir 
+                des applications web dynamiques, tout en mettant l'accent sur la réutilisabilité des composants 
+                et l'efficacité du routage.
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero cta-btn--projects"
+                  >See Live</a
+                >
+                <a href="#" target="_blank" class="cta-btn text-color-main"
+                  >Source Code</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/projet-2.webp"
+                    class="img-fluid"
+                    alt="Project Image"
+                    width="1366"
+                    height="767"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">OhMyFood</h3>
+              <p class="project-wrapper__text-info">
+                Dans le cadre de ma formation, j'ai développé l'interface mobile-first d'un site web 
+                pour une start-up en pleine croissance. En utilisant Sass, j'ai structuré les styles 
+                pour une maintenance efficace. J'ai également intégré des animations CSS afin d'enrichir 
+                l'expérience utilisateur avec des interactions visuelles dynamiques. La gestion 
+                des versions via Git et GitHub m'a permis de suivre les évolutions du projet avec précision. 
+                Ce projet illustre ma capacité à créer des interfaces web réactives et esthétiques, 
+                en optimisant l'interaction utilisateur grâce à des animations bien pensées.
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero cta-btn--projects"
+                  >See Live</a
+                >
+                <a href="#" target="_blank" class="cta-btn text-color-main"
+                  >Source Code</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/projet-3.webp"
+                    class="img-fluid"
+                    alt="Project Image"
+                    width="1366"
+                    height="767"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">sofi</h3>
+              <p class="project-wrapper__text-info">
+                Dans ce projet de formation, j'ai développé le front-end d'une application en React 
+                et React Router, visant à offrir une expérience utilisateur moderne et réactive basée 
+                sur des maquettes fournies. Le projet se concentre sur le développement front-end, 
+                utilisant des données simulées d'un fichier JSON pour présenter des logements destinés 
+                à la location entre particuliers. Grâce à React, j'ai pu créer des composants réutilisables, 
+                simplifiant le développement et améliorant la maintenabilité du code. J'ai également 
+                mis en place un routage efficace avec React Router pour une navigation fluide entre 
+                les différents logements. Ce projet illustre ma capacité à utiliser React pour concevoir 
+                des applications web dynamiques, tout en mettant l'accent sur la réutilisabilité des composants 
+                et l'efficacité du routage.
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero cta-btn--projects"
+                  >See Live</a
+                >
+                <a href="#" target="_blank" class="cta-btn text-color-main"
+                  >Source Code</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/projet-2.webp"
+                    class="img-fluid"
+                    alt="Project Image"
+                    width="1366"
+                    height="767"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+        </div>
+      </div>
+    </section>
+    <!-- End Projects Section -->
+     
+        </div>
+      </div>
+    </section>
+    <!-- End Projects Section -->
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-wrapper">
+          <p class="contact-wrapper__text">[Put your call to action here]</p>
+          <a href="#" class="cta-btn cta-btn--resume">Call to Action</a>
+        </div>
+      </div>
+    </section>
+    <!-- END Contact Section -->
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="container">
+        <a href="#hero" class="back-to-top" aria-label="go back to top">
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+        </a>
+        <div class="social-links">
+          <a
+            href="#!"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="twitter"
+          >
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+          <a
+            href="#!"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="instagram"
+          >
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a
+            href="#!"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="codepen"
+          >
+            <i class="fa-brands fa-codepen"></i>
+          </a>
+          <a
+            href="#!"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="linkedin"
+          >
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a
+            href="#!"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="github"
+          >
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </div>
+        <hr />
+        <p class="footer__text">
+          &copy; <span id="year"></span> - Template by
+          <a
+            href="https://github.com/AnilSeervi"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Anil Seervi</a
+          >. <br />Made with &hearts;
+        </p>
+      </div>
+    </footer>
+    <!-- END Footer Section -->
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear()
+    </script>
+    <script src="./javascript/vanilla-tilt.min.js"></script>
+    <script type="text/javascript" src="./javascript/valtilt.js"></script>
+  </body>
+</html>
