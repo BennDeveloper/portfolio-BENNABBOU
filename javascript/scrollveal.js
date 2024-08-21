@@ -1,3 +1,7 @@
+//bibliothèque JavaScript ScrollReveal pour créer des animations 
+//d'apparition d'éléments sur une page web lorsqu'ils entrent dans
+// le champ de vision de l'utilisateur en défilant (scrolling)
+
 const defaultProps = {
   easing: "cubic-bezier(0.5, 0, 0, 1)",
   distance: "30px",

@@ -1,3 +1,4 @@
+//Appliquer un effet d'inclinaison 3D avec reflet sur les éléments 
 let tilt = document.querySelectorAll(".rounded");
 VanillaTilt.init(tilt, {
   max: 3,
